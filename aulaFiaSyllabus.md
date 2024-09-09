@@ -1,5 +1,4 @@
 ## Bloco 1: Identidade e Privacidade
-
 ### Definição: Identidade e Privacidade
 
 Identidade refere-se ao conjunto de informações que representam um indivíduo ou entidade em sistemas e plataformas online, a ser definido para habilitar uma transação. Essa identidade digital pode incluir desde dados pessoais, como nome, data de nascimento e CPF, até informações mais dinâmicas, como comportamentos online, histórico de navegação e interações em redes sociais. Estes dados podem vir das pessoas, voluntariamente (first party data), ou serem coletados à revelia, sem que as pessoas saibam que tais dados estão sendo coletados.
@@ -44,3 +43,27 @@ A engenharia de privacidade não apenas ajuda a cumprir regulamentos como a LGPD
 3. Solove, D.J., 2008. *Understanding Privacy*. Cambridge: Harvard University Press. Disponível em: <[2](https://books.google.com.br/books?id=eSrnEAAAQBAJ&lpg=PT7&ots=MdqXkNXD0i&dq=understanding%20privacy&lr&hl=pt-BR&pg=PT7#v=onepage&q=understanding%20privacy&f=false)> [Acesso em: 1 Jan. 2024]
 
 4. Gürses, S., & Diaz, C. (2013). *Two tales of privacy in online social networks*. In: *IEEE Security & Privacy*, 11(3), 29-37.
+
+## Bloco 3: Fluxos de Dados e Detecção de Ameaças
+### Definição: Fluxos de Dados e Detecção de Ameaças
+
+**Fluxos de Dados** referem-se ao "caminho" que as informações fazem através dos diferentes sistemas, plataformas e redes. A análise dos fluxos de dados é o primeiro passo para entender como e onde os dados são coletados, processados e armazenados, e para identificar possíveis pontos de vulnerabilidade e riscos associados ao manejo dessas informações.
+
+**Detecção de Ameaças** envolve a identificação e mitigação de riscos associados ao tratamento de informações. Isso inclui a implementação de mecanismos para monitorar atividades suspeitas, por exemplo, detectar possíveis brechas de segurança e proteger os dados contra acesso não autorizado ou uso indevido. É tambem parte da detecção de riscos em privacidade a modelagem de ameaças de privacidade, feitas com base no LINDUNN. A detecção de ameaças é uma parte essencial da estratégia de segurança da informação e da proteção da privacidade, pois permite responder proativamente a incidentes e minimizar o impacto de ataques cibernéticos e outras ameaças.
+
+A combinação da análise de fluxos de dados com práticas robustas de detecção de ameaças ajuda a garantir a integridade, confidencialidade e disponibilidade dos dados, protegendo assim a privacidade dos indivíduos e a segurança das informações.
+
+## Referências
+
+1. Navas, J. and Beltrán, M., 2019. Understanding and mitigating OpenID Connect threats. Computers & Security, 84, pp.1-16.
+
+2. Crampton, J.W., 2015. Collect it all: National security, big data and governance. GeoJournal, 80, pp.519-531.
+
+3. Neisse, R., Geneiatakis, D., Steri, G., Kambourakis, G., Fovino, I.N. and Satta, R., 2016. *Dealing with User Privacy in Mobile Apps: Issues and Mitigation. Protecting mobile networks and devices*, pp.81-106. 
+
+4. Enck, W., Gilbert, P., Han, S., Tendulkar, V., Chun, B.-G., Cox, L.P., Jung, J., McDaniel, P. & Sheth, A.N., 2014. *TaintDroid: An information-flow tracking system for realtime privacy monitoring on smartphones*. ACM Transactions on Computer Systems (TOCS), 32(2), pp.1-29. Available at: https://doi.org/10.1145/2619091 [Accessed 12 Ago 2024].
+
+## Examplos e imagens
+
+1. "Data Flow Security: Mitigating the Risks of Continuous Data Movement in the Cloud". Disponível em: <[Data Flows] https://www.paloaltonetworks.com/blog/prisma-cloud/cloud-data-flows-jeopardizing-compliance-security/>
+
