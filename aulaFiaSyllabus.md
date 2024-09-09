@@ -1,4 +1,5 @@
 ## Bloco 1: Identidade e Privacidade
+
 ### Definição: Identidade e Privacidade
 
 Identidade refere-se ao conjunto de informações que representam um indivíduo ou entidade em sistemas e plataformas online, a ser definido para habilitar uma transação. Essa identidade digital pode incluir desde dados pessoais, como nome, data de nascimento e CPF, até informações mais dinâmicas, como comportamentos online, histórico de navegação e interações em redes sociais. Estes dados podem vir das pessoas, voluntariamente (first party data), ou serem coletados à revelia, sem que as pessoas saibam que tais dados estão sendo coletados.
@@ -7,8 +8,7 @@ Privacidade, por sua vez, inclui o direito de controlar o acesso a essas informa
 
 A proteção da identidade digital é, portanto, essencial para garantir que os indivíduos mantenham o controle sobre suas informações pessoais e preservem sua privacidade em um ambiente digital cada vez mais complexo e interconectado.
 
-
-## Referências
+### Referências
 
 1. Cavoukian, A., 2009. *Privacy by Design: The 7 Foundational Principles - Implementation and Mapping of Fair Information Practices*. Ontario: Information and Privacy Commissioner of Ontario.
 
@@ -26,6 +26,7 @@ A proteção da identidade digital é, portanto, essencial para garantir que os 
 
 
 ## Bloco 2: Privacy Engineering
+
 ### Definição: Privacy Engineering
 
 Privacy Engineering é a disciplina que integra princípios de privacidade e proteção de dados ao design, desenvolvimento e manutenção de sistemas e tecnologias. Seu objetivo é garantir que a privacidade seja incorporada desde o início (Privacy by Design), em vez de ser uma preocupação secundária ou um aspecto a ser tratado apenas após o desenvolvimento do produto ou serviço.
@@ -34,36 +35,79 @@ Essa abordagem sistemática inclui a criação de arquiteturas e processos que r
 
 A engenharia de privacidade não apenas ajuda a cumprir regulamentos como a LGPD ou o GDPR, mas também promove a confiança dos usuários e a inovação responsável, ao criar produtos e serviços que respeitem e protejam a privacidade. Além disso, a privacidade promove a eficiência operacional, uma vez que mantém a integridade dos dados em datasets robustos. 
 
-## Referências
+### Referências
 
-1. GÜRSES, Seda; TRONCOSO, Carmela; DIAZ, Claudia. *Engineering privacy by design reloaded*. In: *Amsterdam Privacy Conference*. 2015.
+1. Gürses, S., Troncoso, C. and Diaz, C., 2011. *Engineering privacy by design*. In: *Computers, Privacy & Data Protection*, pp.1-15.
 
-2. Hansen, M., Jensen, M., and Rost, M., 2015. *Protection Goals for Privacy Engineering*. In: *IEEE Security & Privacy*, vol. 13, no. 2, pp. 66-72.
+2. Hansen, M., Jensen, M. and Rost, M., 2015. *Protection Goals for Privacy Engineering*. In: *IEEE Security & Privacy*, vol. 13, no. 2, pp. 66-72.
 
-3. Solove, D.J., 2008. *Understanding Privacy*. Cambridge: Harvard University Press. Disponível em: <[2](https://books.google.com.br/books?id=eSrnEAAAQBAJ&lpg=PT7&ots=MdqXkNXD0i&dq=understanding%20privacy&lr&hl=pt-BR&pg=PT7#v=onepage&q=understanding%20privacy&f=false)> [Acesso em: 1 Jan. 2024]
+3. Solove, D.J., 2008. *Understanding Privacy*. Cambridge: Harvard University Press. Disponível em: <https://books.google.com.br/books?id=eSrnEAAAQBAJ&lpg=PT7&ots=MdqXkNXD0i&dq=understanding%20privacy&lr&hl=pt-BR&pg=PT7#v=onepage&q=understanding%20privacy&f=false> [Acesso em: 1 Jan. 2024].
 
-4. Gürses, S., & Diaz, C. (2013). *Two tales of privacy in online social networks*. In: *IEEE Security & Privacy*, 11(3), 29-37.
+4. Gürses, S. & Diaz, C., 2013. *Two tales of privacy in online social networks*. In: *IEEE Security & Privacy*, 11(3), pp. 29-37.
 
 ## Bloco 3: Fluxos de Dados e Detecção de Ameaças
+
 ### Definição: Fluxos de Dados e Detecção de Ameaças
 
 **Fluxos de Dados** referem-se ao "caminho" que as informações fazem através dos diferentes sistemas, plataformas e redes. A análise dos fluxos de dados é o primeiro passo para entender como e onde os dados são coletados, processados e armazenados, e para identificar possíveis pontos de vulnerabilidade e riscos associados ao manejo dessas informações.
 
-**Detecção de Ameaças** envolve a identificação e mitigação de riscos associados ao tratamento de informações. Isso inclui a implementação de mecanismos para monitorar atividades suspeitas, por exemplo, detectar possíveis brechas de segurança e proteger os dados contra acesso não autorizado ou uso indevido. É tambem parte da detecção de riscos em privacidade a modelagem de ameaças de privacidade, feitas com base no LINDUNN. A detecção de ameaças é uma parte essencial da estratégia de segurança da informação e da proteção da privacidade, pois permite responder proativamente a incidentes e minimizar o impacto de ataques cibernéticos e outras ameaças.
+**Detecção de Ameaças** envolve a identificação e mitigação de riscos associados ao tratamento de informações. Isso inclui a implementação de mecanismos para monitorar atividades suspeitas, detectar possíveis brechas de segurança e proteger os dados contra acesso não autorizado ou uso indevido. Também faz parte da detecção de riscos em privacidade a modelagem de ameaças de privacidade, feitas com base no LINDUNN. A detecção de ameaças é uma parte essencial da estratégia de segurança da informação e da proteção da privacidade, pois permite responder proativamente a incidentes e minimizar o impacto de ataques cibernéticos e outras ameaças.
 
 A combinação da análise de fluxos de dados com práticas robustas de detecção de ameaças ajuda a garantir a integridade, confidencialidade e disponibilidade dos dados, protegendo assim a privacidade dos indivíduos e a segurança das informações.
 
-## Referências
+### Referências
 
-1. Navas, J. and Beltrán, M., 2019. Understanding and mitigating OpenID Connect threats. Computers & Security, 84, pp.1-16.
+1. Navas, J. and Beltrán, M., 2019. *Understanding and mitigating OpenID Connect threats*. *Computers & Security*, 84, pp.1-16.
 
-2. Crampton, J.W., 2015. Collect it all: National security, big data and governance. GeoJournal, 80, pp.519-531.
+2. Crampton, J.W., 2015. *Collect it all: National security, big data and governance*. *GeoJournal*, 80, pp.519-531.
 
-3. Neisse, R., Geneiatakis, D., Steri, G., Kambourakis, G., Fovino, I.N. and Satta, R., 2016. *Dealing with User Privacy in Mobile Apps: Issues and Mitigation. Protecting mobile networks and devices*, pp.81-106. 
+3. Neisse, R., Geneiatakis, D., Steri, G., Kambourakis, G., Fovino, I.N. and Satta, R., 2016. *Dealing with User Privacy in Mobile Apps: Issues and Mitigation*. In: *Protecting mobile networks and devices*, pp.81-106.
 
-4. Enck, W., Gilbert, P., Han, S., Tendulkar, V., Chun, B.-G., Cox, L.P., Jung, J., McDaniel, P. & Sheth, A.N., 2014. *TaintDroid: An information-flow tracking system for realtime privacy monitoring on smartphones*. ACM Transactions on Computer Systems (TOCS), 32(2), pp.1-29. Available at: https://doi.org/10.1145/2619091 [Accessed 12 Ago 2024].
+4. Enck, W., Gilbert, P., Han, S., Tendulkar, V., Chun, B.-G., Cox, L.P., Jung, J., McDaniel, P. & Sheth, A.N., 2014. *TaintDroid: An information-flow tracking system for realtime privacy monitoring on smartphones*. *ACM Transactions on Computer Systems (TOCS)*, 32(2), pp.1-29. Disponível em: <https://doi.org/10.1145/2619091> [Acesso em: 12 Ago. 2024].
+5. 
+6. Clouet, M., Antignac, T., Arnaud, M., Pedroza, G. and Signoles, J., 2022, June. *A new generic representation for modeling privacy*. In 2022 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW) (pp. 203-211). IEEE.
 
-## Examplos e imagens
+### Exemplos e Imagens
 
-1. "Data Flow Security: Mitigating the Risks of Continuous Data Movement in the Cloud". Disponível em: <[Data Flows] https://www.paloaltonetworks.com/blog/prisma-cloud/cloud-data-flows-jeopardizing-compliance-security/>
+1. "Data Flow Security: Mitigating the Risks of Continuous Data Movement in the Cloud". Disponível em: <https://www.paloaltonetworks.com/blog/prisma-cloud/cloud-data-flows-jeopardizing-compliance-security/>
 
+## Bloco 4: Tecnologias Modernas para Proteção de Dados (PETs)
+### Definição: Tecnologias Modernas para Proteção de Dados
+
+**Tecnologias de Proteção de Dados** (PETs) são ferramentas e técnicas projetadas para garantir a privacidade e a segurança das informações pessoais. Essas tecnologias ajudam a proteger os dados contra acessos não autorizados, vazamentos e abusos, e são essenciais para a conformidade com regulamentações de privacidade, como o GDPR e a LGPD.
+
+### Tecnologias
+
+1. **Criptografia**
+   A criptografia transforma dados legíveis em um formato codificado que só pode ser lido por aqueles que possuem a chave de descriptografia. É amplamente utilizada para proteger dados em trânsito e em repouso, garantindo que mesmo que os dados sejam interceptados, eles permaneçam inacessíveis a terceiros não autorizados.
+   
+   **Referência:** 
+   - de Alencar, M.S., 2022. Cryptography and Network Security. River Publishers.
+   - Bhajaria, N., 2022. Data Privacy: A runbook for engineers. Simon and Schuster.
+
+2. **Anonimização**
+   A anonimização remove ou modifica informações identificáveis de um conjunto de dados, tornando impossível a identificação de indivíduos a partir desses dados. Essa técnica é fundamental para permitir o uso de dados em pesquisas e análises sem comprometer a privacidade dos sujeitos.
+
+   **Referência:** 
+   - Sweeney, L., 2002. *k-Anonymity: A Model for Protecting Privacy*. In: *International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems*, vol. 10, no. 5, pp. 557-570.
+   - Sweeney, L., 2000. Simple Demographics Often Identify People Uniquely.
+
+3. **Pseudonimização**
+   A pseudonimização substitui dados pessoais identificáveis por identificadores pseudônimos, reduzindo a possibilidade de identificar indivíduos sem a chave de reversão. É uma técnica que melhora a proteção de dados enquanto permite a continuidade do processamento e análise de dados.
+
+   **Referência:** 
+   - Agrawal, R. and Srikant, R., 2000. *Privacy-Preserving Data Mining*. In: *ACM SIGMOD International Conference on Management of Data*, pp. 439-450.
+   - Oreščanin, D., Hlupić, T. and Vrdoljak, B., 2024. Managing Personal Identifiable Information in Data Lakes. IEEE access.
+
+4. **Privacidade Diferencial (Differential Privacy)**
+   A privacidade diferencial adiciona ruído aos dados para garantir que a presença ou ausência de um indivíduo em um banco de dados não possa ser detectada. Isso permite a realização de análises sobre dados agregados sem comprometer a privacidade dos indivíduos.
+
+   **Referência:** 
+   - Dwork, C., 2008. *Differential Privacy: A Survey of Results*. In: *Theory of Cryptography Conference (TCC)*, pp. 1-19.
+   - Cynthia Dwork: *The Mathematics of Privacy*. Vídeo disponível em: <https://www.youtube.com/watch?v=dOFiOgs18-4.>
+
+5. **Computação Segura Multi-Partes (Secure Multi-Party Computation)**
+   A computação segura de multi-partes permite que várias partes realizem cálculos sobre dados compartilhados sem revelar suas entradas individuais. É usada para realizar análises colaborativas enquanto mantém a privacidade dos dados envolvidos.
+
+   **Referência:** 
+   - Yao, A.C., 1982, November. Protocols for secure computations. In 23rd annual symposium on foundations of computer science (sfcs 1982) (pp. 160-164). IEEE.
